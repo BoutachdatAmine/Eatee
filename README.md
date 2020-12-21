@@ -1,4 +1,4 @@
-# Programming Project 2 2021 - dagtraject - groep 7 - Eatee
+# Eatee - Full project
 ## Mobile Application
 ### About
 This folder contains the mobile app part of the project. 
