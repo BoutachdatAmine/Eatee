@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="be.ehb.progproj2.eatee">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Eatee"
+        android:usesCleartextTraffic="true"
+        tools:ignore="AllowBackup"
+        tools:targetApi="m">
+        <activity android:name=".views.payment.PaymentScreen" />
+        <activity android:name=".views.customer.PostsScreen" />
+        <activity android:name=".views.customer.OrderScreen" />
+        <activity android:name=".views.register.FirstRegisterScreen" />
+        <activity android:name=".views.register.SecondRegisterScreen" />
+        <activity android:name=".views.menu.CreateSandwichScreen" />
+        <activity android:name=".views.menu.FilterScreen" />
+        <activity android:name=".views.menu.ProductScreen" />
+        <activity android:name=".views.menu.MenuDateScreen" />
+        <activity android:name=".views.menu.MenuScreen" />
+        <activity android:name=".views.customer.HomeScreen" />
+        <activity android:name=".views.customer.TwoFactorScreen" />
+        <activity android:name=".views.customer.NavigationScreen" />
+        <activity android:name=".views.customer.OrdersScreen" />
+        <activity android:name=".views.customer.AccountScreen" />
+        <activity android:name=".views.customer.CartScreen" />
+        <activity android:name=".views.customer.ChangePasswordScreen" />
+        <activity android:name=".views.customer.LoginScreen" />
+        <activity android:name=".WelcomeScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

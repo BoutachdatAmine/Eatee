@@ -1,0 +1,14 @@
+# Default ignored files
+target/
+*/target/**
+/shelf/
+/workspace.xml
+
+# Datasource local storage ignored files
+/../../../:\Eatee-API\.idea/dataSources/
+/dataSources.local.xml
+.env
+application.properties
+
+# Editor-based HTTP Client requests
+/httpRequests/
