@@ -1,14 +1,11 @@
 # Eatee - Full project
 ## Mobile Application
 ### About
-This folder contains the mobile app part of the project. 
 
 ### Technology
 We used Android Studio to create the android app.
 
-When you make an android app in Android Studio, you get the choice of which API level you want to use. The higher the level, the newer the API is and the more features it has. However, less android phones will be able to run the app. For example: if the app uses API level 16, the app can be used by 99.8% of the android phones, while API level 30 (the newest one) can only be run on less than 1% of android phones.
-
-We chose for API level 30 so that we can use the most recent features. Even if the app would actually be rolled out to the public, the API level can easily be changed to API level 16 without a lot of problems.
+We chose for API level 30 so that we can use the most recent features. Even if the app would actually be rolled out to the public, the API level can easily be changed to API level 16 without any problems.
 
 ### Features
 - See the menu of the day
@@ -16,7 +13,7 @@ We chose for API level 30 so that we can use the most recent features. Even if t
 - Click on a product to see its allergies, price, availability and you can add it to your cart
 - Create a sandwich and add it to your cart
 - Change your password
-- Change your 2-Factor Authentication
+- Enable 2-Factor Authentication
 - View your orders
 - Click an order to see more information about that order
 - Able to order and pay with visa
@@ -60,7 +57,7 @@ For the website we were inspired by the following sites:
 ### Features
 #### Extra admin features
 - Create new employees
-- Activate/deactivate employees
+- Activate/deactivate employees account
 - Change password of employees
 - Change information of employees
 
