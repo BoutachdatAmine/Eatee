@@ -29,7 +29,7 @@ To view the website you will need to be connected to the VPN of our school (EHB)
 How to run the code (first time)
 - go to the correct folder
 - open the terminal
-- enter: composter install
+- enter: composer install
 - enter: copy .env.example .env
 - enter: php artisan key:generate
 - enter: php artisan serve
